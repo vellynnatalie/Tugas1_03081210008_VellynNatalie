@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Biodata DIri"
+        android:textColor="@color/blue_700"
+        android:textSize="23dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/blue_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"/>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/profile" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap: Vellyn Natalie"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!--   <TextView-->
+    <!--       android:id="@+id/userAlert"-->
+    <!--       android:layout_width="match_parent"-->
+    <!--       android:layout_height="wrap_content"-->
+    <!--       android:gravity="center"-->
+    <!--       android:textColor="@color/blue_700"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir  : 13/03/2003"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin : Wanita"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan            : Sistem Informasi"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas                 : 21SI2"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM                   : 03081210008"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills Bahasa  : English"
+            android:textSize="19dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/blue_700"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonedit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:background="@color/blue_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+
+
+</LinearLayout>
